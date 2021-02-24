@@ -6,4 +6,9 @@ QNAP is a network array storage (NAS) vendor that manufactures various products 
 ## Solution:
 A fully automated solution was developed to fully restore the Thunderbolt connectivity between an Apple Mac and a QNAP NAS device upon wake up from sleep.  The process is outlined below via two bash scripts that are triggered when computer wakes up from sleep.
 
-Please read the included PDF for full description.
+Please read the included PDF (Apple Mac to QNAP NAS Thunderbolt connection breaks after waking computer from sleep_FM.pdf) full description.
+
+Update Script as follows:
+•	[[admin account]] -> QNAP Administrator Account.  You must have already setup your account for public/private key authentication or any other desired secured method.
+•	[[192.168.XX.XXX]] -> IP Address of your QNAP Ethernet interface
+•	[[169.254.X.XXX]] -> IP Address of your QNAP Thunderbolt interface
