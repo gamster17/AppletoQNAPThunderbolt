@@ -6,4 +6,4 @@ QNAP is a network array storage (NAS) vendor that manufactures various products 
 ## Solution:
 A fully automated solution was developed to fully restore the Thunderbolt connectivity between an Apple Mac and a QNAP NAS device upon wake up from sleep.  The process is outlined below via two bash scripts that are triggered when computer wakes up from sleep.
 
-Please read the PDF included for full description.
+Please read the included PDF for full description.
