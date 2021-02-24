@@ -8,7 +8,7 @@ A fully automated solution was developed to fully restore the Thunderbolt connec
 
 Please read the included PDF (Apple Mac to QNAP NAS Thunderbolt connection breaks after waking computer from sleep_FM.pdf) full description.
 
-Update Script as follows:
-•	[[admin account]] -> QNAP Administrator Account.  You must have already setup your account for public/private key authentication or any other desired secured method.
-•	[[192.168.XX.XXX]] -> IP Address of your QNAP Ethernet interface
-•	[[169.254.X.XXX]] -> IP Address of your QNAP Thunderbolt interface
+Update Script as follows (mac_qnap_thunderbolt_stop_start.sh):
+* [[admin account]] -> QNAP Administrator Account.  You must have already setup your account for public/private key authentication or any other desired secured method.
+* [[192.168.XX.XXX]] -> IP Address of your QNAP Ethernet interface
+*	[[169.254.X.XXX]] -> IP Address of your QNAP Thunderbolt interface
