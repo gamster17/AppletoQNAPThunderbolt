@@ -16,7 +16,7 @@ echo "************************************************************"
 echo "QNAP Thunderbolt interface restarted.  Ping will be attempted again"
 echo "************************************************************"
 echo ""
-sleep 5s
+sleep 3s
 ping -c1 [[169.254.X.XXX]]
 else
 echo ""
